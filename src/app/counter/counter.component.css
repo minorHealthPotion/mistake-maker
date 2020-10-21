@@ -4,13 +4,6 @@
   padding: 0.5em 1em;
   text-align: center;
 }
-/*два класса модификатора для демонстрации полей (привычка обнулять поля в body) */
-.counter_mt {
-  margin-top: 1em;
-}
-.counter_ml {
-  margin-left: 1em;
-}
 .counter__title {
   font-weight: bold;
 }

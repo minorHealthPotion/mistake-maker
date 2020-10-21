@@ -1,7 +1,9 @@
 /* Add application styles & imports to this file! */
 :root {
   box-sizing: border-box;
-  font-size: calc(0.6em + 1vw);
+  font-size: 0.875em;
+  line-height: 1.4;
+  letter-spacing: ;
 }
 *,
 ::before,
@@ -12,7 +14,22 @@ body {
   margin: 0;
   font-family: Lato, sans-serif;
   color: #5c5c5c;
+  background-color: white;
 }
 .reservation {
   display: flex;
+}
+
+/*демонстрация вертикального выравнивания*/
+.flex-container {
+  display: flex;
+}
+.flex-container > * + * {
+  margin-left: 1em;
+}
+.flex-container_mt {
+  margin-top: 1em;
+}
+.flex-container_ml {
+  margin-left: 1em;
 }

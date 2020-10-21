@@ -1,0 +1,28 @@
+.search {
+  background-color: #f2f2f2;
+  padding: 0.5em 4em 0.5em 1em;
+  border-radius: 0.5em;
+  text-align: left;
+}
+.search > p {
+  color: #b2b2b2;
+  margin: 0;
+  font-size: 0.8em;
+}
+.search__dropdown {
+  outline: none;
+  font-size: 1em;
+  padding: 1em 0;
+  color: #6685bd;
+  cursor: pointer;
+  border: transparent;
+  font-weight: bold;
+  background-color: transparent;
+}
+.search__dropdown:hover,
+.search__dropdown:focus {
+  color: #2d4779;
+}
+.search__drawer {
+  display: none;
+}
