@@ -1,0 +1,27 @@
+.counter {
+  background-color: #f2f2f2;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+/*два класса модификатора для демонстрации полей (привычка обнулять поля в body) */
+.counter_mt {
+  margin-top: 1em;
+}
+.counter_ml {
+  margin-left: 1em;
+}
+.counter__title {
+  font-weight: bold;
+}
+.counter__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.counter__column + .counter__column {
+  margin-left: 1em;
+}
+.counter__column > span:nth-child(1) {
+  font-size: 1.5rem;
+}

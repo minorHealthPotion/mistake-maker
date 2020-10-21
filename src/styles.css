@@ -1,0 +1,18 @@
+/* Add application styles & imports to this file! */
+:root {
+  box-sizing: border-box;
+  font-size: calc(0.6em + 1vw);
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: lato, sans-serif;
+  color: #5c5c5c;
+}
+.reservation {
+  display: flex;
+}
