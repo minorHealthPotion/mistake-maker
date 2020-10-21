@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
 import { CounterComponent } from "./counter/counter.component";
 import { SearchComponent } from "./search/search.component";
+import { GridComponent } from './grid/grid.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -13,7 +14,8 @@ import { SearchComponent } from "./search/search.component";
     AppComponent,
     HelloComponent,
     CounterComponent,
-    SearchComponent
+    SearchComponent,
+    GridComponent
   ],
   bootstrap: [AppComponent]
 })
